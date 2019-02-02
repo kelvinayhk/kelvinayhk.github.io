@@ -1,0 +1,39 @@
+.aboutMeLogo{
+    font-size: 90px;
+    color: #a50000;
+    margin: 10px;
+}
+.charac{
+    width: 90%;
+    margin: 0 auto;
+line-height: 125%;
+padding:0;
+}
+.charac ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    
+}
+.charac ul{
+    padding: 0;
+    text-align: center;
+}
+
+.me{
+    width: auto;
+    padding: 30px;
+}
+.charac ul li p{
+    margin: 10px;
+    width:290px;
+    
+}
+@media  only screen and (max-width: 800px){
+    .me{
+        padding:0 ;
+    }
+    .aboutMeLogo{
+        width: auto;
+    }
+}

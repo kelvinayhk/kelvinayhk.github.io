@@ -1,0 +1,94 @@
+
+.form{
+    padding: 0 3%;
+    width: 550px;
+    height: 94%;
+    margin: 30px auto;
+
+    line-height: 125%;
+    
+}
+form{
+    margin: 20px;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),url('image/logo.png');
+    background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+}
+form ul li #name, #mail{
+    height: 20px;
+    width: calc(50% - 65px);
+
+}
+form ul li textarea{
+    width: calc(100% - 67.5px);
+    resize: vertical;
+    min-height: 20vh;
+    
+    
+}
+input[type=text]:focus, textarea:focus {
+    border-color: #007ad2;
+  }
+  input[type=text], textarea {
+      -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color:  #3e3e3e;
+    color: #cecece;
+    border-width: 3px;
+    border-color: #3e3e3e;
+    border-style: solid;
+    font: 20px 'Questrial', sans-serif;
+    padding: 12px 20px;
+    opacity: .9;
+  }
+.form ul{
+    margin:0;
+    padding: 7px;
+    width: 100%;
+}
+.form ul li{
+    display: inline;
+    padding:5px;
+}
+input[type=submit]{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font: 20px 'Questrial', sans-serif;
+    font-weight: bold;
+float: right;
+margin: 10px;
+padding: 12px 40px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+color: #a50000;
+background-color: #3e3e3e;
+border-color: #a50000;
+border-width: 3px;
+border-style: solid;
+}
+input[type=submit]:hover{
+    
+    background-color: #a50000;
+color: #3e3e3e;
+}
+@media  only screen and (max-width: 800px){
+    .form{
+        margin: 30px 0 ;
+        width: 100%;
+    }
+    input[type=submit]{
+        padding: 5px 15px;
+        -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+    }
+
+}

@@ -1,0 +1,61 @@
+.description{
+    height: auto;
+    float: left;
+    width:50%;
+    overflow: hidden;
+}
+.description p{
+    
+    font-family: "Montserrat"; 
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+
+    animation: fadein 1.5s forwards;
+    opacity: 0;
+    margin: 30px 0;
+    
+}
+
+.img{
+    padding: 265px 0 0 0;
+    margin: 0;
+    float: left;
+    width:50%;
+    text-align: center;
+    overflow: hidden;
+    animation: fadein 1.5s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+img{
+        -webkit-filter: drop-shadow(2px 2px 4px #000000);
+        filter: drop-shadow(2px 2px 4px #000000);
+    width: 100%;
+    height: auto;
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@media  only screen and (max-width: 800px){
+    .description{
+        width: 100%;
+        
+    }
+    .description p{
+        margin: 0 0 30px 0;
+        font-size: 60px;
+    }
+    .img{
+        padding: 0 40px;
+        width: 50%;
+        float:right;
+    }
+}

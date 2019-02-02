@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+	<title>KELViN - Web Developer</title>
+	<link rel="icon" href="image/logo.png">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet" href="skill.css">
+	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:400,700|Questrial" rel="stylesheet">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div class="sidebar">
+		<ul class="sidebar-Icon">
+			<li>
+				<a href="#home"><i class="fas fa-home icon" id="ICHome"></i></a>
+			</li>
+			<li>
+				<a href="#about"><i class="far fa-user icon" id="ICAbout"></i></a>
+			</li>
+			<li>
+				<a href="#skill"><i class="far fa-file-code icon" id="ICSkill"></i></a>
+			</li>
+			<li>
+				<a href="#contact"><i class="far fa-envelope icon" id="ICContact"></i></a>
+
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="container">
+		<span class="bg">&lt;html&gt;<br> &emsp;&lt;body&gt;</span>
+		<div id="home" class="showcase">
+			<div class="description">
+				<p>Hi, <br>
+					I'm <span style="color: #a50000">K</span>ELVIN <span style="color: #a50000">A</span>Y,<br>
+					A web developer.</p>
+			</div>
+			<div class="img">
+				<img src="image/logo.png" alt="">
+			</div>
+		</div>
+		<div id="about" class="showcase">
+			<span class="headerText"> <span style="color: #a50000">About</span> me</span>
+			<p class="me">
+				Hi, I'm Kelvin. <br>
+				I'm a Computer Science student who is aiming to become a web developer.<br>
+				2017 - now: Studying <span>Bachelor of Engineering (Computer Science) </span> the Univesity of Hong Kong.<br>
+				2015 - 2017: Studying <span>Associate of Engineering (Computer Science) </span> HKU SPACE Community College, Hong
+				Kong<br>
+
+			</p>
+			<div class="charac">
+				<ul>
+					<li>
+						<i class="far fa-lightbulb aboutMeLogo"></i><br>
+						<span style="font-weight:bold">CREATIVE</span><br>
+						<p>
+							I'm eager and willing to innovate. The new user experience comes from innovation. Who doesn't love new fresh
+							design?
+						</p>
+					</li>
+					<li>
+						<i class="fas fa-battery-full aboutMeLogo"></i><br>
+						<span style="font-weight:bold">ENERGETIC</span><br>
+						<p>
+							Get pumped! Never letting myself to stay away from the temptation of learning and creating stunning works.
+						</p>
+					</li>
+					<li>
+						<i class="fas fa-praying-hands aboutMeLogo"></i><br>
+						<span style="font-weight:bold">COOPERATIVE</span><br>
+						<p>
+							Team working always brings up new ideas. I always can't wait to see the stunning works after working with
+							different people.
+						</p>
+					</li>
+					<li>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div id="skill" class="showcase">
+			<span class="headerText"> <span style="color: #a50000">Skills</span></span>
+			<div class="gallery">
+				Web development
+				<ul>
+					<li id="item1">
+						<p>HTML5</p><img src="image/html5.png">
+					</li>
+					<li id="item2">
+						<p>CSS3</p><img src="image/css3.png">
+					</li>
+					<li id="item3">
+						<p>JavaScript</p><img src="image/javascript.png">
+					</li>
+					<li id="item4">
+						<p>NodeJs</p><img src="image/nodejs.png">
+					</li>
+					<li id="item5">
+						<p>jQuery</p><img src="image/jQuery.jpg">
+					</li>
+				</ul>
+			</div>
+
+			<div class="gallery">
+				Others
+				<ul>
+					<li id="item6">
+						<p>iMovie</p><img src="image/imovie.png">
+					</li>
+					<li id="item7">
+						<p>Adobe<br>Premiere</p><img src="image/Pr.png">
+					</li>
+					<li id="item8">
+						<p>Adobe<br>Illustrator</p><img src="image/ai.png">
+					</li>
+					<li id="item9">
+						<p>Adobe<br>PhotoShop</p><img src="image/ps.png">
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div id="contact" class="showcase">
+			<span class="headerText"> <span style="color: #a50000">Contact</span> me</span>
+			<div class="form">
+				If you have any questions, please feel free to use to form below to contact me :)
+
+				<form action="mailto:kelvinayhk@gmail.com" method="post" enctype="text/plain">
+					<ul class="upper">
+						<li>
+							<input type="text" id="name" placeholder="Name">
+							<span></span>
+						</li>
+						<li>
+							<input type="text" id="mail" placeholder="Mail">
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<textarea id="message" placeholder="Message"></textarea>
+						</li>
+					</ul>
+					<input id="send" type="submit" value="SEND">
+				</form>
+			</div>
+
+		</div>
+		<span class="bg"> &emsp;&lt;/body&gt;<br>&lt;/html&gt;</span>
+	</div>
+
+</body>
+
+</html>
